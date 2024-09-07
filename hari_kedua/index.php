@@ -9,14 +9,15 @@ echo phi;
 echo "<br>";
 
 $luasPersegiPanjang=67;
-echo $luasPersegiPanjang;
+echo $luasPersegiPanjang;echo "<br>";
 
 $luasPersegiPanjang=67;
 $kelilingLingkaran=19.5;
 $nama="Haliq";
 $mati=True;
 
-var_dump($luasPersegiPanjang);
-var_dump($kelilingLingkaran);
-var_dump($nama);
-var_dump($mati);
+echo "<br><h4>Tipe Data</h4>";
+var_dump($luasPersegiPanjang);echo "<br>";
+var_dump($kelilingLingkaran);echo "<br>";
+var_dump($nama);echo "<br>";
+var_dump($mati);echo "<br>";

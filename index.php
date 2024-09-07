@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Tugas harian</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
@@ -14,16 +14,20 @@
         background: linear-gradient(to right, black, rgb(21, 21, 48), rgb(164, 164, 240));
         color:white;
     }
+    .row{
+        position: sticky;
+        top: 0;
+    }
     nav{
-    background: #00000052;
-    backdrop-filter:blur(30px)
+        background: #00000052;
+        backdrop-filter:blur(30px);
     }
     .nav-item{
         display: flex;
-    justify-content: center; 
-    align-items: center; 
-    padding: 5px 30px;
-    padding-left:55px;
+        justify-content: center; 
+        align-items: center; 
+        padding: 5px 30px;
+        padding-left:55px;
     }
     .nav-link{
         transition: transform 0.3s ease;
@@ -32,10 +36,48 @@
         color:white;
         transform: scale(1.2);
     }
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav ul li {
+    display: inline;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    position: relative;
+}
+
+.nav ul li a::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.nav ul li a:hover::after,
+.nav ul li a.active::after {
+    width: 100%;
+    transform: translateX(-50%) scaleX(1);
+}
 </style>
+
         <div class="row">
             <div class="col-lg-12">
                 <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+                    <div class="nav">
                     <div class="container-fluid">
                         
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -79,7 +121,7 @@
                 </nav>
             </div>
         </div>
-
+</div>
     <?php 
     
         if(isset($_GET['halaman'])){
@@ -108,7 +150,6 @@
                     break;
                 case "hari6":
                     include "hari_ke6/index.php";
-                    include "hari_ke6/gen.php";
                     break;
                 case "hari7":
                     include "hari_ke7/index.php";
@@ -120,6 +161,14 @@
                 case "hari8":
                     include "hari_ke8/index.php";
                     break;
+                case "link1":
+                    include "hari_ke8/link1.php";
+                    break;
+                case "link2":
+                    include "hari_ke8/link2.php";
+                    break;
+                default:
+                    include "welcome.php";
             }
         }else{
             include "welcome.php";

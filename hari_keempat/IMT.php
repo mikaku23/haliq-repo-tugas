@@ -22,4 +22,4 @@ else{
 }
 
 $kategori="$IMT:$keterangan";
-echo "$kategori<hr>";
+echo "kategori dengan imt $IMT adalah $kategori<hr>";

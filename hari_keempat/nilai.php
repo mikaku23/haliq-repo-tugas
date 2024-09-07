@@ -1,17 +1,17 @@
 <?php
 
-$nilai=100;
+$nilai=59;
 
-if($nilai>=90){
+if($nilai>=90 && $nilai<=100){
     $predikat= "A";
 }
-elseif($nilai>=80){
+elseif($nilai>=80 && $nilai<90){
     $predikat= "B";
 }
-elseif($nilai>=70){
+elseif($nilai>=70 && $nilai<80){
     $predikat= "C";
 }
-elseif($nilai>=60){
+elseif($nilai>=60 && $nilai<70){
     $predikat= "D";
 }
 else{
@@ -19,4 +19,4 @@ else{
 }
 
 $hasil="$nilai:$predikat";
-echo $hasil;
+echo "Predikat dengan nilai $nilai adalah $predikat";

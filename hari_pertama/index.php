@@ -1,10 +1,12 @@
 <?php
 
-echo " lembu <br>";
-print " dah beli <br>";
-printf("<b> dah belah <br>");
+echo "(pakai echo) lembu <br>";
+print "(pakai print) dah beli <br>";
+printf("(pakai printf)<b> dah belah <br>");
 print "dah beli dah belah</b> <br>";
 echo "__ <br>";
+
+echo "pakai incude untuk menghubungkan file lain ke file ini<br>";
 include 'contoh.php';
 
 $bilangan_A=9;

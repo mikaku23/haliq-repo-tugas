@@ -1,5 +1,5 @@
 <?php
-
+echo "<h3>perulangan bilangan prima</h3>";
 for ($i=1;$i<=300;$i++){
     $cek=0;
     for($k=1;$k<=$i;$k++){

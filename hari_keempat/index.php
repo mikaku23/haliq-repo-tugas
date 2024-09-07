@@ -17,4 +17,4 @@ else{
 }
 
 $totalBayar=$totalBelanja-($totalBelanja*$diskon);
-echo "$totalBayar<hr>";
+echo "total pembayaran semua belanja setelah diskon/tidak adalah $totalBayar<hr>";

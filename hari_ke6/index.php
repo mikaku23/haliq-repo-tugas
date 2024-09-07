@@ -1,6 +1,6 @@
 <?php
 
-$jumlahjamkerja=47;
+$jumlahjamkerja=49;
 $jamlembur=$jumlahjamkerja-48;
 
 if ($jumlahjamkerja <=0){
@@ -13,4 +13,4 @@ else{
     $upah=(2000*$jumlahjamkerja);
 }
 
-echo "$upah <hr>";
+echo "jumlah upah bersih adalah $upah <hr>";
