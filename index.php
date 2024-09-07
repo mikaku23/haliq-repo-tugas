@@ -26,8 +26,8 @@
         display: flex;
         justify-content: center; 
         align-items: center; 
-        padding: 5px 30px;
-        padding-left:55px;
+        padding: 5px 20px;
+        padding-left:50px;
     }
     .nav-link{
         transition: transform 0.3s ease;
@@ -113,7 +113,9 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="index.php?halaman=hari8">hari 8</a>
                                 </li>
-                    
+                    <li class="nav-item">
+                                    <a class="nav-link" href="index.php?halaman=hari9">menghitung</a>
+                                </li>
                                 
                             </ul>
                         </div>
@@ -166,6 +168,11 @@
                     break;
                 case "link2":
                     include "hari_ke8/link2.php";
+                    break;
+                case "hari9":
+                    include "menghitung/hitung.php";
+                    include "menghitung/index.php";
+                    include "menghitung/volume.php";
                     break;
                 default:
                     include "welcome.php";

@@ -12,12 +12,12 @@
             color:red;
         }
         </style>
-    <h1>mengirim data menggunakan method GET</h1><!-- method get terserah mau pake form action atau tidak -->
+    <h3>mengirim data menggunakan method GET</h3><!-- method get terserah mau pake form action atau tidak -->
 <a href="index.php?halaman=link1&nama=haliq" class="link">Link 1</a>
 
 <hr>
 
-<h1>mengirim data menggunakan method POST</h1> <!-- method post harus menggunakan form action -->
+<h3>mengirim data menggunakan method POST</h3> <!-- method post harus menggunakan form action -->
 
 <form action="index.php?halaman=link2" method="post">
     <label for="nama">Nama</label><br>
