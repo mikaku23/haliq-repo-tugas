@@ -25,8 +25,12 @@
     padding: 5px 30px;
     padding-left:55px;
     }
+    .nav-link{
+        transition: transform 0.3s ease;
+    }
     .nav-link:hover{
         color:white;
+        transform: scale(1.2);
     }
 </style>
         <div class="row">
@@ -41,7 +45,7 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="index.php?halaman=welcome">Home</a>
+                                    <a class="nav-link" href="index.php?halaman=welcome">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="index.php?halaman=hari1">hari 1</a>
