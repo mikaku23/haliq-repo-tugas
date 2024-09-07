@@ -5,3 +5,4 @@ for($i=1900;$i<=2100;$i++){
         echo "$i ini tahun kabisat<br>";
     }
 }
+echo "<hr>";

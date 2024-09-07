@@ -1,25 +1,7 @@
-<html>
-    <head>
-        <title>
-            hari kelima
-</title>
-
-</head>
-    <style>
-        body{
-            background: linear-gradient(to bottom right, black, rgb(21, 21, 48), rgb(164, 164, 240));
-            color: white;
-            font-size:50px;
-        }
-        </style>
-        <body>
-            <body>
-</html>
 
 <?php
 // percabangan
 $bulanke=2;
-echo "<center>";
 switch ($bulanke){
     case 1:
         echo"Januari";

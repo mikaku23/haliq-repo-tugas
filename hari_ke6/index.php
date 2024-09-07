@@ -13,4 +13,4 @@ else{
     $upah=(2000*$jumlahjamkerja);
 }
 
-echo $upah;
+echo "$upah <hr>";

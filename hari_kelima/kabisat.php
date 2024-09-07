@@ -9,4 +9,4 @@ else{
 $ket= "bukan tahun kabisat";
 }
 
-echo "tahun $tahun $ket ";
+echo "<hr>tahun $tahun $ket ";

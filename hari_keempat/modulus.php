@@ -4,10 +4,10 @@ $bilangan=55;
 $hasil=$bilangan%2;
 
 if($hasil==0){
-    echo"bilangan genap";
+    echo"bilangan genap<hr>";
 }
 else{
-    echo "bilangan ganjil";
+    echo "bilangan ganjil<hr>";
 }
 
 ?>

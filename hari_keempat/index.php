@@ -17,4 +17,4 @@ else{
 }
 
 $totalBayar=$totalBelanja-($totalBelanja*$diskon);
-echo $totalBayar;
+echo "$totalBayar<hr>";
