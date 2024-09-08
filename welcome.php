@@ -10,19 +10,23 @@
         body{
             background: url(img/1.jpg);
             background-size:cover;
+             backdrop-filter:brightness(0.2) ;
+            
         }
         h3{
 
-            position:relative;
+   
             color:#8194ff;
         }
         .teks{
-            margin-bottom:200px;
-            margin-top:200px;
+            padding-bottom:255px;
+            padding-top:200px;
             font-family:Serif;
-            padding-left:30px;
+ 
+           
             font-weight: bold;
-            
+             filter: drop-shadow(10px 10px 100px #ff0000);
+             
         }
         h1{
             color:#636bb6;

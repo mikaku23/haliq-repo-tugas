@@ -11,7 +11,7 @@
 <body>
 <style>
     body{
-        background: linear-gradient(to right, black, rgb(21, 21, 48), rgb(164, 164, 240));
+     background: linear-gradient(to right, black, rgb(21, 21, 48), rgb(131, 131, 231));
         color:white;
     }
     .row{
