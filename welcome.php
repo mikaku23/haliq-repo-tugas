@@ -22,10 +22,7 @@
             padding-bottom:255px;
             padding-top:200px;
             font-family:Serif;
- 
-           
             font-weight: bold;
-             filter: drop-shadow(10px 10px 100px #ff0000);
              
         }
         h1{
